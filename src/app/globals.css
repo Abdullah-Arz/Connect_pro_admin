@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+ background-color: #0E0F12;
+}
+/* Change the background and text color of autofill input fields */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1a1b1e inset !important; /* Change the background color */
+  -webkit-text-fill-color: #fff;
+}
+/* #option_style:hover {
+  background-color: rgb(31, 31, 31)!important;
+  color: rgba(255, 255, 255, 0.703)!important;
+} */
+
+option:hover {
+  background-color: yellow !important;
+}
+
